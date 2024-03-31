@@ -1,0 +1,10 @@
+x = 100
+y = 10
+if x < y:
+    max_val = y
+    min_val = x
+else:
+    max_val = x
+    min_val = y
+print("Maximum: ", max_val)
+print("Minimum: ", min_val)
